@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Contact Us - OnShopping BW</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background-image: url("images/background2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+}
+
+/* PAGE */
+
+.contact-container{
+max-width:800px;
+margin:60px auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.contact-container h1{
+margin-bottom:10px;
+}
+
+.contact-container p{
+color:gray;
+margin-bottom:30px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp-help{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:14px 25px;
+border-radius:8px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+.whatsapp-help:hover{
+background:#1ebe5d;
+}
+
+/* SOCIAL MEDIA */
+
+.socials{
+margin-top:35px;
+}
+
+.socials a{
+font-size:32px;
+margin:0 15px;
+color:#333;
+text-decoration:none;
+display:inline-block;
+animation:bounce 1.5s infinite;
+}
+
+/* Bounce animation */
+
+@keyframes bounce{
+
+0%{transform:translateY(0);}
+
+50%{transform:translateY(-10px);}
+
+100%{transform:translateY(0);}
+
+}
+
+/* Make them bounce one after another */
+
+.socials a:nth-child(1){animation-delay:0s;}
+.socials a:nth-child(2){animation-delay:0.2s;}
+.socials a:nth-child(3){animation-delay:0.4s;}
+.socials a:nth-child(4){animation-delay:0.6s;}
+
+.socials a:hover{
+color:hsl(33, 96%, 44%);
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="contact-container">
+
+<h1>Contact / Help</h1>
+
+<p>
+Need help with buying or selling on OnShopping BW?  
+Our support team is ready to assist you.
+</p>
+
+<a href="https://wa.me/26778013746?text=Hello%20OnShopping%20BW%20Support,%20I%20need%20help."
+class="whatsapp-help" target="_blank">
+Chat Admin on WhatsApp
+</a>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+<p><b>Follow OnShopping BW</b></p>
+
+</div>
+
+</div>
+
+</body>
+</html>
